@@ -3,7 +3,6 @@
 import subprocess
 
 try:
-    subprocess.call(["pip", "install", "uv", "hatch"])
     subprocess.call(["hatch", "env", "create"])
     subprocess.call(["git", "init"])
     subprocess.call(["git", "add", "*"])
